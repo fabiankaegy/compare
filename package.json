@@ -1,0 +1,49 @@
+{
+	"name": "compare-prop",
+	"version": "0.0.1",
+	"description": "Zero dependency utility to make comparing objects by certain props easier",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watchAll",
+		"test:coverage": "jest --coverage"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://fabiankaegy@github.com/fabiankaegy/compareProp.git"
+	},
+	"keywords": [
+		"filtering",
+		"filter"
+	],
+	"author": "fabiankaegy",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/fabiankaegy/compareProp/issues"
+	},
+	"homepage": "https://github.com/fabiankaegy/compareProp#readme",
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"jest": "^24.9.0"
+	},
+	"babel": {
+		"presets": [
+			[
+				"@babel/preset-env"
+			]
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
